@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet" type="text/css">
-    <title>Tarefa-05 Menu</title>
+    <title>Document</title>
 </head>
 <body>
     
@@ -18,10 +18,12 @@
   <B><H1>Menu - Faça sua escolha </H1></B>
 
 <section>
+
+    <h1>Prato Principal</h1>
+    <h2>Todos os pratos acompanham o arroz, feijão e a sobremessa do dia</h2>
    
     <div class="card">
         <div class="card-title">
-            Prato Principal
      </div>
      <div class="card-content">
         <img src="https://t2.rg.ltmcdn.com/pt/posts/4/4/1/bife_acebolado_com_fritas_10144_orig.jpg"  width="200" height="205">
@@ -45,12 +47,56 @@
         <b><p>R$ 22,00</p></b>
         <BUtton>-</BUtton> <input id="num1" type="number"> <BUtton>+</BUtton>
     </div>
+</section>
 
+<section2>
+      <h1>Acompanhamentos</h1>
+      <h2>Porções para uma pessoa</h2>
 
+    <div class="card4">
+        <div class="card-title">
+     </div>
+     <div class="card-content">
+        <img src="https://institucional.semarsupermercados.com.br/wp-content/uploads/2019/12/Farofa-R%C3%A1pida-de-Farinha-de-Milho.png"  width="200" height="205">
+        <b><p>Farofa</p></b>
+        <b><p>R$ 10,00</p></b>
+        <BUtton>-</BUtton> <input id="num1" type="number"> <BUtton>+</BUtton>
+    </div>
+
+    <div class="card5">
+    <div class="card-content">
+        <img src="https://revistasaboresdosul.com.br/wp-content/uploads/2014/12/salada-e-muito-bom.gif"  width="200" height="205">
+        <b><p>Salada</p></b>
+        <b><p>R$ 8,00</p></b>
+        <BUtton>-</BUtton> <input id="num1" type="number"> <BUtton>+</BUtton>
+    </div>
+
+    <div class="card6">
+    <div class="card-content">
+        <img src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2019/03/torresmo-sem-estresse-na-pressao-1024x683.jpg"  width="200" height="205">
+        <b><p>Torresmo</p></b>
+        <b><p>R$ 12,00</p></b>
+        <BUtton>-</BUtton> <input id="num1" type="number"> <BUtton>+</BUtton>
+    </div>
+ 
+
+</section2>
+
+<section3>
+    <h1>Dados Pessoais</h1>
+
+    <input type="text" id="phone" placeholder="Digite o seu Nome"></input>
+    <p> <input type="text" id="phone" placeholder="Digite o seu telefone"></input> </p>
+    <input type="text" id="phone" placeholder="Digite o seu Email"></input>
+
+    <script>
+        $(document).ready(function () {
+            $("#phone").mask("(99) 9999-99999");
+        });
+    </script>
 
 
 </section>
-
 
 
 
