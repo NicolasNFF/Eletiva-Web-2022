@@ -6,6 +6,10 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
 section {
     max-width: 870px;
     margin: 0 auto;
@@ -16,6 +20,8 @@ section {
     background-color: rgba(216, 209, 212, 0.856);
     padding: 7px;
 }
+
+
 .card {
     background-color: white;
     width: 30%;
