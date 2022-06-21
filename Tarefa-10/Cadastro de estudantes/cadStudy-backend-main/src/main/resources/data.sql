@@ -1,0 +1,3 @@
+INSERT INTO TB_STUDENT (nome,cidade,curso,email,idade,semestre) VALUES ('Luiz Augusto','Sorocaba','Análise e desenvolvimento de sistemas','luiz@gmail.com',27,'3')
+INSERT INTO TB_STUDENT (nome,cidade,curso,email,idade,semestre) VALUES ('Sandra Medeiros','Salto','Psicologia','sandrinha@gmail.com',21,'7')
+INSERT INTO TB_STUDENT (nome,cidade,curso,email,idade,semestre) VALUES ('Mariana Godoy','Sorocaba','Marketing','mariana@gmail.com',23,'3')
