@@ -1,0 +1,15 @@
+<div id="listar-component">
+    <label for="search-box">Listar Carros</label>
+    <input #searchBox id="search-box" (input)="search(searchBox.value)" />
+  
+    <ul class="search-result">
+      <li *ngFor="let carro of carros$ | async" >
+        <a routerLink="/detail/{{carro.id}}">
+          {{Carro.codigo}}
+          {{Carro.modelo}}
+          {{Carro.preço}}
+          {{Carro.AnoFab}}
+        </a>
+      </li>
+    </ul>
+  </div>

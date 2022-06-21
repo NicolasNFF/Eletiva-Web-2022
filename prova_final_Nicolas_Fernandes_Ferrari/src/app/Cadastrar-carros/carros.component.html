@@ -1,0 +1,33 @@
+<h1>Cadastrar Carros</h1>
+
+<div>
+    <label for="new-codigo">Carro Codigo: </label>
+    <input id="new-codigo" #CarroCodigo />
+
+    <label for="new-carro">Modelo: </label>
+    <input id="new-carro" #CarroModelo />
+
+    <label for="new-preço">Preço: </label>
+    <input id="new-preço" #CarroPreço />
+
+    <label for="new-AnoFab">Ano de Fabricação: </label>
+    <input id="new-AnoFab" #CarroAnoFab />
+
+    <button class="add-button" (click)="add(CarroCodigo.value, CarroModelo.value, CarroPreço.value, CarroANoFab.value); 
+            CarroCodigo.value='';CarroModelo.value='';CarroPreço.value='';CarroAnoFab.value=''">
+        Cadastrar Carros
+      </button> 
+    </div>
+    
+    <ul class="carros">
+      <li *ngFor="let carro of carros">
+        <a routerLink="/detail/{{carros.id}}">
+          <span class="badge">{{carro.id}}</span> {{carro.codigo}} {{carro.Modelo}} {{carro.preço}} {{carro.AnoFab}}
+        </a>
+         
+        <button class="delete" title="deletar "
+          (click)="delete(carro)">Deletar</button>
+      </li>
+    </ul>
+
+</div>
