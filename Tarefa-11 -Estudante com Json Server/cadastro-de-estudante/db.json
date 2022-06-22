@@ -1,0 +1,206 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "nome": "Maria Teresa Perdigão",
+      "idade": 29,
+      "registro": 32454632154,
+      "curso": "ADS",
+      "foto": "../../../assets/student-1.jpg",
+      "sexo": "female",
+      "tipo": "student"
+    },
+    {
+      "id": 2,
+      "nome": "Fabiana Palitos Mansilha",
+      "idade": 19,
+      "registro": 40087894654,
+      "curso": "GTI",
+      "foto": "../../../assets/student-2.jpg",
+      "sexo": "female",
+      "tipo": "student"
+    },
+    {
+      "id": 3,
+      "nome": "João da Silva Feijão",
+      "idade": 32,
+      "registro": 49639361473,
+      "curso": "Engenharia Espacial",
+      "foto": "../../../assets/student-3.jpg",
+      "sexo": "male",
+      "tipo": "student"
+    },
+    {
+      "id": 4,
+      "nome": "Joshua Barata Foquiço",
+      "idade": 41,
+      "registro": 95174164990,
+      "curso": "Culinária",
+      "foto": "../../../assets/student-4.jpg",
+      "sexo": "male",
+      "tipo": "student"
+    },
+    {
+      "id": 5,
+      "nome": "Eliza Homem Lousada",
+      "idade": 27,
+      "registro": 64769487393,
+      "curso": "Arquitetura e Urbanismo",
+      "foto": "../../../assets/student-5.jpg",
+      "sexo": "female",
+      "tipo": "student"
+    },
+    {
+      "id": 6,
+      "nome": "Eduardo Bonito Pereira",
+      "idade": 18,
+      "registro": 84641556790,
+      "curso": "Engenharia Ambiental",
+      "foto": "../../../assets/student-6.jpg",
+      "sexo": "male",
+      "tipo": "student"
+    },
+    {
+      "id": 7,
+      "nome": "Maria Vaycom Asoutra",
+      "idade": 20,
+      "registro": 13283594009,
+      "curso": "Engenharia da Computação",
+      "foto": "../../../assets/student-7.jpg",
+      "sexo": "female",
+      "tipo": "student"
+    },
+    {
+      "id": 8,
+      "nome": "Jonatã Jamantas Carregado",
+      "idade": 25,
+      "registro": 78582072691,
+      "curso": "Teatro",
+      "foto": "../../../assets/student-8.jpg",
+      "sexo": "male",
+      "tipo": "student"
+    },
+    {
+      "id": 9,
+      "nome": "Manoel Pastel de Oliveira",
+      "idade": 35,
+      "registro": 98736042120,
+      "curso": "Licenciatura em Música",
+      "foto": "../../../assets/student-9.jpg",
+      "sexo": "male",
+      "tipo": "student"
+    },
+    {
+      "id": 10,
+      "nome": "Gabriella Jaiminho Mangueira",
+      "idade": 38,
+      "registro": 10264137180,
+      "curso": "Licenciatura em Artes",
+      "foto": "../../../assets/student-10.jpg",
+      "sexo": "female",
+      "tipo": "student"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "nome": "Agrícola Beterraba Areia",
+      "idade": 45,
+      "registro": 93918983005,
+      "curso": "GTI",
+      "foto": "../../../assets/teacher-1.jpg",
+      "sexo": "female",
+      "tipo": "teacher"
+    },
+    {
+      "id": 2,
+      "nome": "Amado Amoroso",
+      "idade": 79,
+      "registro": 78036769018,
+      "curso": "ADS",
+      "foto": "../../../assets/teacher-2.jpg",
+      "sexo": "male",
+      "tipo": "teacher"
+    },
+    {
+      "id": 3,
+      "nome": "Amin Amou Amado",
+      "idade": 42,
+      "registro": 48760669063,
+      "curso": "Educação Financeira",
+      "foto": "../../../assets/teacher-3.jpg",
+      "sexo": "male",
+      "tipo": "teacher"
+    },
+    {
+      "id": 4,
+      "nome": "Antonio Manso Pacífico",
+      "idade": 41,
+      "registro": 15018421029,
+      "curso": "Biologia",
+      "foto": "../../../assets/teacher-4.jpg",
+      "sexo": "male",
+      "tipo": "teacher"
+    },
+    {
+      "id": 5,
+      "nome": "Antônio Morrendo das Dores",
+      "idade": 57,
+      "registro": 22663663000,
+      "curso": "História",
+      "foto": "../../../assets/teacher-5.jpg",
+      "sexo": "male",
+      "tipo": "teacher"
+    },
+    {
+      "id": 6,
+      "nome": "Asteróide Silverio",
+      "idade": 38,
+      "registro": 57140871000,
+      "curso": "ADS",
+      "foto": "../../../assets/teacher-6.jpg",
+      "sexo": "male",
+      "tipo": "teacher"
+    },
+    {
+      "id": 7,
+      "nome": "Beatriz Zebra Jogada",
+      "idade": 29,
+      "registro": 47361365027,
+      "curso": "GTI",
+      "foto": "../../../assets/teacher-7.jpg",
+      "sexo": "female",
+      "tipo": "teacher"
+    },
+    {
+      "id": 8,
+      "nome": "Céu Azul do Sol Poente",
+      "idade": 35,
+      "registro": 78702189011,
+      "curso": "GTI",
+      "foto": "../../../assets/teacher-8.jpg",
+      "sexo": "female",
+      "tipo": "teacher"
+    },
+    {
+      "id": 9,
+      "nome": "Dolores Fuertes de Barriga",
+      "idade": 75,
+      "registro": 85105051017,
+      "curso": "Geografia",
+      "foto": "../../../assets/teacher-9.jpg",
+      "sexo": "female",
+      "tipo": "teacher"
+    },
+    {
+      "id": 10,
+      "nome": "Homem Bom da Cunha Souto Maior",
+      "idade": 48,
+      "registro": 84719648053,
+      "curso": "Português",
+      "foto": "../../../assets/teacher-10.jpg",
+      "sexo": "male",
+      "tipo": "teacher"
+    }
+  ]
+}
