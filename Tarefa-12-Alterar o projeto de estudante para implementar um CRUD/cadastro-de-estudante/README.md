@@ -1,6 +1,6 @@
 Page: https://github.com/NicolasNFF/Eletiva-Web-2022/tree/main/Tarefa-12-Alterar%20o%20projeto%20de%20estudante%20para%20implementar%20um%20CRUD/cadastro-de-estudante
 
-# CadastroDeEstudante
+# Cadastro de Estudante
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
