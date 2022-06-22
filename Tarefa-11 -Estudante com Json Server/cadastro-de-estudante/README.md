@@ -1,6 +1,6 @@
 Page: https://github.com/NicolasNFF/Eletiva-Web-2022/tree/main/Tarefa-11%20-Estudante%20com%20Json%20Server/cadastro-de-estudante
 
-# CadastroDeEstudante
+# Cadastro de Estudante
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
