@@ -1,0 +1,13 @@
+.navbar-brand {
+  color: var(--bs-navbar-brand-color);
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  opacity: 50%;
+}
